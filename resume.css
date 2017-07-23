@@ -91,11 +91,3 @@ footer {
    #download { display: none; }
    footer { display: none; }
 }
-
-@media screen and (max-width: 480px){
-
-		#template1,#template2{
-			max-height: 900px;
-		}
-
-	}
