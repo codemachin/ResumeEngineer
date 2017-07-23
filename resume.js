@@ -260,7 +260,8 @@ $(document).ready(function(){
     });
 
     $("#download").click(function(){
-    	 window.print();
+    	
+    	window.print();
     });
 
     $("#templa").click(function(){

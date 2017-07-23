@@ -86,3 +86,16 @@ footer {
 	padding-bottom: 20px;
 	padding-top: 20px;
 }
+@media print {
+
+   #download { display: none; }
+   footer { display: none; }
+}
+
+@media screen and (max-width: 480px){
+
+		#template1,#template2{
+			min-height: 970px;
+		}
+
+	}
