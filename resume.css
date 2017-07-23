@@ -1,3 +1,5 @@
+
+html { visibility:hidden; }
 .jumbotron{
 	min-height: 100vh;
 	background-color: #222222;

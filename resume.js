@@ -58,6 +58,8 @@ var f3 = ('<div class="form-group">'+
 
 $(document).ready(function(){
 
+  $("html").css('visibility','visible');
+
   window.onbeforeunload = function() {
     return true;
 };
