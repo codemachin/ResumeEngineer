@@ -58,6 +58,12 @@ var f3 = ('<div class="form-group">'+
 
 $(document).ready(function(){
 
+  window.onbeforeunload = function() {
+    return true;
+};
+// Remove navigation prompt
+//window.onbeforeunload = null;
+
 	$("#template1,#template2,#tempSection,#download").hide();
 
 
