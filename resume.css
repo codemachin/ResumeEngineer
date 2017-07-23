@@ -32,7 +32,7 @@
   bottom: 100%;
   left: 26%;
   right: 0;
-  background-color: #008CBA;
+  background-color: rgba(75, 213, 235,0.5);
   overflow: hidden;
   width: 48%;
   height:0;
@@ -61,6 +61,7 @@
 }
 #openTemp1,#openTemp2{
 	cursor: pointer;
+  color:black;
 }
 
 .card {
